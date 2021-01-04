@@ -79,6 +79,73 @@ section{
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
+#contact-area{
+    margin-top: -200px;
+    margin-bottom: -100px;
+}
+.wrap-section{
+	width: 960px;
+	height: 263px;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.mark{
+	background-color: #FA705B;
+	color: #fff;
+    padding: 2px;
+}
+.contact{
+    float: left;
+	width: 420px;
+	padding: 20px;
+	margin-left: 20px;
+    margin-right: 25px;
+    border-right: 1px solid #FA705B;
+}
+.contact h2{
+	margin-left: 50px;
+}
+.query{
+    float: right;
+	width: 420px;
+	padding: 20px;
+	margin-right: -140px;
+}
+.query h2{
+	margin-left: 60px;
+}
+input{
+    width: 250px;
+    height: 25px;
+	padding: 2px;
+	margin: 5px;
+    border-radius: 3px;
+	background: #fff;
+}
+.query3{
+	padding:20px 2px 20px 2px;;
+}
+.submit{
+    color: #FA705B;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-left: 75px;
+    cursor: pointer;
+    text-shadow: -1px 0px 0px #FA705B;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+}
+.submit:hover{
+    background-color: #FA705B;
+    color: #fff;
+}
+input:focus{
+	outline: none;
+}
 footer p{
     text-align: center;
     margin-top: -100px;
