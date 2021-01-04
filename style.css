@@ -29,7 +29,7 @@ h1{
 }
 section{
     height: 500px;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
